@@ -4,7 +4,6 @@ import './navbutton-style.css'
 const Navbutton = ({ text, to, className }) => {
 
     const Navbutton = tw(NavLink)`
-    
     p-3
     relative
     w-full

@@ -2,7 +2,16 @@ import React from 'react'
 
 const DecodePage = () => {
   return (
-    <div></div>
+    <div>
+      {/* 
+        TODO
+        input esm
+        input tol
+        input erz
+        
+
+      */}
+    </div>
   )
 }
 
