@@ -1,0 +1,4 @@
+
+.navb:not(.active) #activeBar{
+    display: none;
+}

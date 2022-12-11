@@ -2,6 +2,7 @@ import Root from './root';
 import {createBrowserRouter} from 'react-router-dom'
 import Home from './home';
 import CodePage from './code';
+import DecodePage from './decode';
 
 const router = createBrowserRouter([
     {
@@ -11,6 +12,10 @@ const router = createBrowserRouter([
         {
           path:'/code',
           element:<CodePage/>
+        },
+        {
+          path:'/decode',
+          element:<DecodePage/>
         }
       ]
     },
