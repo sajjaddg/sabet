@@ -1,5 +1,5 @@
 import {createBrowserRouter} from 'react-router-dom'
-import DecodePage from './decode';
+import DecodePage from './decodePage/decode';
 import CodePage from './codePage/code';
 import Root from './rootPage/root';
 

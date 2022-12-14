@@ -1,3 +1,12 @@
 #navBar:has(.active) {
     transform: translateY(-200px);
 }
+
+.container{
+    animation: op 1s;
+   
+}
+@keyframes op {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
