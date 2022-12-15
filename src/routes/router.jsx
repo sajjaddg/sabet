@@ -1,9 +1,9 @@
-import {createBrowserRouter} from 'react-router-dom'
+import {createHashRouter} from 'react-router-dom'
 import DecodePage from './decodePage/decode';
 import CodePage from './codePage/code';
 import Root from './rootPage/root';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
       path: "/",
       element: <Root />,
