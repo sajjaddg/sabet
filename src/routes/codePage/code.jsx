@@ -12,12 +12,33 @@ const CodePage = () => {
         <FileInput text={"Image 1 "} />
         <FileInput text={"Image 2 "} />
       </div>
-      <div className="flex flex-col w-full">
+      <div className="flex flex-col space-y-2 w-full">
         <CustomInput
           name={"File Name"}
           type={"text"}
-          placeholder={"type some text :)"}
+          placeholder={"File Name: "}
         />
+        <CustomInput
+          name={"Memorize"}
+          type={"text"}
+          placeholder={"Memorize:"}
+        />
+        <div className="flex space-x-3 justify-between">
+          <CustomInput
+            textClassName={"w-20"}
+            inputClassName={"w-24 placeholder:text-center"}
+            name={"height"}
+            type={"text"}
+            placeholder={"height"}
+          />
+          <CustomInput
+            textClassName={"w-20"}
+            inputClassName={"w-24 placeholder:text-center"}
+            name={"weight"}
+            type={"text"}
+            placeholder={"weight"}
+          />
+        </div>
       </div>
       <div className="flex justify-center">
         <button className="p-2 px-6 bg-[#232526] text-[#e0e0e0] text rounded-md">

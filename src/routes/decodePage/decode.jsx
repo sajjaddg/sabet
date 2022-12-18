@@ -23,6 +23,27 @@ const DeCodePage = () => {
           type={"text"}
           placeholder={"type some text :)"}
         />
+      <CustomInput
+          name={"Memorize"}
+          type={"text"}
+          placeholder={"Memorize:"}
+        />
+        <div className="flex space-x-3 justify-between">
+          <CustomInput
+            textClassName={"w-20"}
+            inputClassName={"w-24 placeholder:text-center"}
+            name={"height"}
+            type={"text"}
+            placeholder={"height"}
+          />
+          <CustomInput
+            textClassName={"w-20"}
+            inputClassName={"w-24 placeholder:text-center"}
+            name={"weight"}
+            type={"text"}
+            placeholder={"weight"}
+          />
+        </div>
       </div>
 
       <div className="flex justify-center">
