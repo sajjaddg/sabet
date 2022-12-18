@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sabet/static/css/main.84b9f164.css",
-    "main.js": "/sabet/static/js/main.00d12df9.js",
+    "main.css": "/sabet/static/css/main.92fe0f79.css",
+    "main.js": "/sabet/static/js/main.49f19707.js",
     "index.html": "/sabet/index.html",
-    "main.84b9f164.css.map": "/sabet/static/css/main.84b9f164.css.map",
-    "main.00d12df9.js.map": "/sabet/static/js/main.00d12df9.js.map"
+    "main.92fe0f79.css.map": "/sabet/static/css/main.92fe0f79.css.map",
+    "main.49f19707.js.map": "/sabet/static/js/main.49f19707.js.map"
   },
   "entrypoints": [
-    "static/css/main.84b9f164.css",
-    "static/js/main.00d12df9.js"
+    "static/css/main.92fe0f79.css",
+    "static/js/main.49f19707.js"
   ]
 }
